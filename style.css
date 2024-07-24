@@ -1,0 +1,96 @@
+body{
+    background-image: url(image/0.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cont button{
+    display:inline;
+    width: 150px;
+    height: 150px;
+    margin: auto 20px;
+    border: solid 10px;
+    border-color: rgb(64, 64, 112);
+    font-size: 100px;
+    color: rgba(87, 149, 241, 0.938);
+}
+.pressed,.cont button:hover{
+    display:inline;
+    width: 150px;
+    height: 150px;
+    margin:auto 20px;
+    border: solid 10px;
+    border-color: rgb(64, 64, 112);
+    background-color: rgb(77, 134, 134);
+    transition-duration: 100ms;
+    cursor: pointer;
+
+}
+h1{
+    text-align: center;
+    font-size: 120px;
+}
+.cont{
+    text-align: center;
+}
+.ins_1{
+    background-image: url(/image/accordion.png);
+    background-size:cover;
+}
+.ins_2{
+    background-image: url(/image/drum-set.png);
+    background-size:cover;
+}
+.ins_3{
+    background-image: url(/image/electric-guitar.png);
+    background-size:cover;
+}
+.ins_4{
+    background-image: url(/image/flute.png);
+    background-size:cover;
+}
+.ins_5{
+    background-image: url(/image/grand-piano.png);
+    background-size:cover;
+}
+.ins_6{
+    background-image: url(/image/harmonica.png);
+    background-size:cover;
+}
+.ins_7{
+    background-image: url(/image/saxophone.png);
+    background-size:cover;
+}
+.ins_8{
+    background-image: url(/image/viola.png);
+    background-size:cover;
+}
+.foot{
+    text-align: center;
+}
+.rick{
+    margin: 30px 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,rgb(216, 109, 109),rgb(120, 120, 235),rgb(103, 230, 103));
+    font-size: 20px;
+    font-weight: bolder;
+    color:aliceblue;
+    
+}
+.rick:hover{
+    background-image: linear-gradient(to right,rgb(103, 230, 103),rgb(120, 120, 235),rgb(216, 109, 109));
+    cursor:pointer;
+}
+.new{
+    display:inline;
+    width: 150px;
+    height: 150px;
+    margin: auto 20px;
+    border: solid 10px;
+    border-color: rgb(64, 64, 112);
+    background-color: rgb(77, 134, 134);
+    transition-duration: 100ms;
+    cursor: pointer;
+
+}
